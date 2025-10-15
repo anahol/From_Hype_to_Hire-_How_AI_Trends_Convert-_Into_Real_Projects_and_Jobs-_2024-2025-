@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "github_repos_analyzed": 11682,
+    "date_generated": "2025-10-15T10:57:38.046195"
+  },
+  "top_languages": {
+    "Python": 3898,
+    "TypeScript": 1970,
+    "Unknown": 1155,
+    "JavaScript": 733,
+    "Go": 484,
+    "Rust": 463,
+    "C++": 348,
+    "Jupyter Notebook": 301,
+    "Shell": 257,
+    "C": 244
+  },
+  "most_starred_repos": [
+    {
+      "name": "DeepSeek-V3",
+      "language": "Python",
+      "stars": 99673
+    },
+    {
+      "name": "system-prompts-and-models-of-ai-tools",
+      "language": "Unknown",
+      "stars": 91361
+    },
+    {
+      "name": "DeepSeek-R1",
+      "language": "Unknown",
+      "stars": 91285
+    },
+    {
+      "name": "markitdown",
+      "language": "Python",
+      "stars": 81572
+    },
+    {
+      "name": "gemini-cli",
+      "language": "TypeScript",
+      "stars": 79253
+    }
+  ],
+  "trending_topics": {
+    "ai": 777,
+    "llm": 611,
+    "mcp": 432,
+    "python": 317,
+    "agent": 259,
+    "mcp-server": 226,
+    "typescript": 222,
+    "agents": 195,
+    "rust": 188,
+    "openai": 183
+  }
+}
