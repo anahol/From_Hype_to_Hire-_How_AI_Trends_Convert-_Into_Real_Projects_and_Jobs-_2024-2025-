@@ -1,7 +1,7 @@
 
 # Tech Trends Analyzer: Wpływ AI na Rynek Pracy (2024–2025)
 
-## 📘 Opis projektu
+## Opis projektu
 Projekt analizuje globalne **trendy technologiczne związane z AI, Machine Learning i generative tools** na podstawie danych z:
 - **GitHub** (projekty open-source),
 - **Hacker News (HN)** (medialny hype),
@@ -13,7 +13,7 @@ Analiza obejmuje dane z okresu **wrzesień 2024 – wrzesień 2025** i skupia si
 - geograficznych hotspotach technologicznych,
 - ewolucji ról zawodowych związanych z AI.
 
-## 🧩 Struktura projektu
+## Struktura projektu
 
 Projekt wykorzystuje skrypty Python do pobierania i przetwarzania danych (np. API GitHuba, Algolia dla HN). Kluczowe pliki:
 - tech_trends_modular.py: Analiza trendów na GitHubie i rynku pracy.
@@ -21,14 +21,14 @@ Projekt wykorzystuje skrypty Python do pobierania i przetwarzania danych (np. AP
 - trends_combined.csv: Dane z Google Trends (tygodniowe zainteresowanie wyszukiwaniami).
 - geoMap.csv: Dane geograficzne (np. rozkład trendów po krajach).
 
-## 🧠 Umiejętności wykorzystane
+## Umiejętności wykorzystane
 - **Data scraping i API:** GitHub REST API, Algolia (HN), Adzuna.
 - **Analiza danych:** pandas, numpy.
 - **Wizualizacja:** matplotlib, seaborn, plotly.
 - **Analiza korelacji:** hype → projekty → oferty pracy.
 ---
 
-## 🚀 Jak uruchomić
+## Jak uruchomić
 1. Zainstaluj wymagane pakiety: pip install requests pandas matplotlib seaborn pytrends --quiet
 2. Ustaw zmienną środowiskową GITHUB_TOKEN (dla API GitHuba – wygeneruj token na GitHubie > Settings > Developer settings > Personal access tokens).
 3. Uruchom analizę:
@@ -39,7 +39,7 @@ Projekt wykorzystuje skrypty Python do pobierania i przetwarzania danych (np. AP
 
 Uwaga: Jeśli masz dostęp do Colab, uruchom skrypty tam, aby wygenerować wykresy interaktywnie.
 ---
-## 📊 Kluczowe wnioski z analizy
+## Kluczowe wnioski z analizy
 ### 🔹 1. Co było „na topie” technologicznie?
 **AI i Generative AI** zdominowały cały krajobraz technologiczny.
 
@@ -49,13 +49,13 @@ Uwaga: Jeśli masz dostęp do Colab, uruchom skrypty tam, aby wygenerować wykre
 💡 *Wniosek:* AI to jedyny trend łączący hype, publikacje i realne wdrożenia.
 AR/VR to przykłady „flash hype” – silny buzz medialny, ale mało projektów open-source.
 ---
-### 🔹 2. Czy hype przekłada się na projekty (GitHub/startupy)?
+###  2. Czy hype przekłada się na projekty (GitHub/startupy)?
 - **AI:** wysoka konwersja – projekty LLM, Claude, Gemini rosną wraz z zainteresowaniem.
 - **AR/VR:** duży hype, mało projektów – typowy przykład buzzowego trendu.
 - **Rust/Go/Python:** niskie piki, ale wysoka liczba repozytoriów – rozwój stabilny i organiczny.
 📈 *AI ma 2–3× wyższy wskaźnik konwersji hype → projekty* niż inne trendy.
 ---
-### 🔹 3. Nowe role i rynek pracy AI
+###  3. Nowe role i rynek pracy AI
 Top stanowiska (Adzuna API, 2025):
 ```
 1. Senior Artificial Intelligence (AI) Consultant – 42 oferty
@@ -69,7 +69,7 @@ Trendy:
 - Nowe role: **AI Ethicist**, **LLMOps Engineer**, **Prompt Engineer**.
 💡 *Firmy nie zawsze używają „AI” w tytule, ale umiejętności AI są w opisie stanowisk.*
 ---
-### 🔹 4. Gdzie hype był największy?
+###  4. Gdzie hype był największy?
 Z danych `geoMap.csv`:
 - **USA:** 60% wszystkich trendów i projektów AI (gł. Bay Area),
 - **Indie:** dynamiczny wzrost startupów (Bangalore),
@@ -77,7 +77,7 @@ Z danych `geoMap.csv`:
 - **Polska:** rosnący rynek (Warszawa, Wrocław – wzrost ofert AI o 22% r/r).
 💡 *USA = centrum innowacji, Indie = centrum wykonawcze, Europa = zaplecze badawcze.*
 ---
-### 🔹 5. Nieoczywiste korelacje
+###  5. Nieoczywiste korelacje
 - **Lag (opóźnienie trendów):**
     HN → GitHub = ~3 tygodnie,
     GitHub → Oferty pracy = ~2 miesiące.
@@ -90,16 +90,16 @@ Z danych `geoMap.csv`:
     „LLMOps” +170%,
     „Machine Learning” +37%.
 ---
-## 🧭 Podsumowanie
+##  Podsumowanie
 > AI to jedyny trend, który łączy hype, wdrożenia i wzrost zatrudnienia.
-📌 *AI nie jest już modą, ale nowym standardem infrastruktury technologicznej.*
+ *AI nie jest już modą, ale nowym standardem infrastruktury technologicznej.*
 AR/VR pozostają niszowe.
 Firmy nie tylko mówią o AI — zatrudniają do jego wdrażania.
 ---
-## 💼 Kontakt
+##  Kontakt
 - GitHub: [anahol](https://github.com/anahol)
 - Email: [hol.ana.ofc@gmail.com](mailto:hol.ana.ofc@gmail.com)
 
-📄 **Licencja:** MIT
+ **Licencja:** MIT
 
 🔗 **Repozytorium:** [Tech Trends Analyzer](https://github.com/anahol/tech-trends-analyzer)
